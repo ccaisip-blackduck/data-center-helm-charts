@@ -35,6 +35,7 @@ jobs:
           blackducksca_prcomment_enabled: true 
           # github_token: ${{ secrets.GH_PAT_TOKEN }} # Required when PR comments is enabled
           github_token: ${{ secrets.GITHUB_TOKEN }} # Required when Fix PRs is enabled
+          # add a comment to test PR
 
           ### SARIF report generation and upload to GitHub Adavanced Security: Uncomment below to enable
           blackducksca_reports_sarif_create: true # Create Black Duck SARIF report and upload it as artifact
